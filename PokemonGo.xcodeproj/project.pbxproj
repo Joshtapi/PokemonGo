@@ -14,7 +14,112 @@
 		4276FDF32B1BE64600832A0F /* PokemonGo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4276FDF12B1BE64600832A0F /* PokemonGo.xcdatamodeld */; };
 		4276FDF52B1BE64900832A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4276FDF42B1BE64900832A0F /* Assets.xcassets */; };
 		4276FDF82B1BE64900832A0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4276FDF62B1BE64900832A0F /* LaunchScreen.storyboard */; };
+		4276FE052B1BE97900832A0F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4276FE042B1BE97900832A0F /* MapKit.framework */; };
+		4276FE0B2B1C00EB00832A0F /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4276FE0A2B1C00EB00832A0F /* PokedexViewController.swift */; };
+		4276FE142B1C038C00832A0F /* Funciones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4276FE132B1C038C00832A0F /* Funciones.swift */; };
+		4276FE162B1FC68400832A0F /* PokePin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4276FE152B1FC68400832A0F /* PokePin.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		4276FE0C2B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4276FE0D2B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4276FE0E2B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4276FE0F2B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4276FE102B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4276FE112B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+		4276FE122B1C00EC00832A0F /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = pattern.proxy;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4276FE012B1BE91200832A0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4276FE072B1BE98B00832A0F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		4276FDE52B1BE64600832A0F /* PokemonGo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +131,10 @@
 		4276FDF42B1BE64900832A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4276FDF72B1BE64900832A0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4276FDF92B1BE64900832A0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4276FE042B1BE97900832A0F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4276FE0A2B1C00EB00832A0F /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
+		4276FE132B1C038C00832A0F /* Funciones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Funciones.swift; sourceTree = "<group>"; };
+		4276FE152B1FC68400832A0F /* PokePin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokePin.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4276FE052B1BE97900832A0F /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +154,7 @@
 			children = (
 				4276FDE72B1BE64600832A0F /* PokemonGo */,
 				4276FDE62B1BE64600832A0F /* Products */,
+				4276FE032B1BE97900832A0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,26 +173,61 @@
 				4276FDEA2B1BE64600832A0F /* SceneDelegate.swift */,
 				4276FDEC2B1BE64600832A0F /* ViewController.swift */,
 				4276FDEE2B1BE64600832A0F /* Main.storyboard */,
+				4276FE0A2B1C00EB00832A0F /* PokedexViewController.swift */,
 				4276FDF42B1BE64900832A0F /* Assets.xcassets */,
+				4276FE152B1FC68400832A0F /* PokePin.swift */,
 				4276FDF62B1BE64900832A0F /* LaunchScreen.storyboard */,
 				4276FDF92B1BE64900832A0F /* Info.plist */,
 				4276FDF12B1BE64600832A0F /* PokemonGo.xcdatamodeld */,
+				4276FE132B1C038C00832A0F /* Funciones.swift */,
 			);
 			path = PokemonGo;
 			sourceTree = "<group>";
 		};
+		4276FE032B1BE97900832A0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4276FE042B1BE97900832A0F /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4276FE002B1BE91200832A0F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		4276FDE42B1BE64600832A0F /* PokemonGo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4276FDFC2B1BE64900832A0F /* Build configuration list for PBXNativeTarget "PokemonGo" */;
 			buildPhases = (
+				4276FE002B1BE91200832A0F /* Headers */,
 				4276FDE12B1BE64600832A0F /* Sources */,
 				4276FDE22B1BE64600832A0F /* Frameworks */,
 				4276FDE32B1BE64600832A0F /* Resources */,
+				4276FE012B1BE91200832A0F /* CopyFiles */,
+				4276FE022B1BE91200832A0F /* ShellScript */,
+				4276FE062B1BE98B00832A0F /* ShellScript */,
+				4276FE072B1BE98B00832A0F /* CopyFiles */,
+				4276FE082B1BE98B00832A0F /* ShellScript */,
+				4276FE092B1BE98B00832A0F /* ShellScript */,
 			);
 			buildRules = (
+				4276FE0C2B1C00EC00832A0F /* PBXBuildRule */,
+				4276FE0D2B1C00EC00832A0F /* PBXBuildRule */,
+				4276FE0E2B1C00EC00832A0F /* PBXBuildRule */,
+				4276FE0F2B1C00EC00832A0F /* PBXBuildRule */,
+				4276FE102B1C00EC00832A0F /* PBXBuildRule */,
+				4276FE112B1C00EC00832A0F /* PBXBuildRule */,
+				4276FE122B1C00EC00832A0F /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -136,14 +282,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4276FE022B1BE91200832A0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		4276FE062B1BE98B00832A0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		4276FE082B1BE98B00832A0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+		4276FE092B1BE98B00832A0F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4276FDE12B1BE64600832A0F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4276FDED2B1BE64600832A0F /* ViewController.swift in Sources */,
+				4276FE162B1FC68400832A0F /* PokePin.swift in Sources */,
 				4276FDF32B1BE64600832A0F /* PokemonGo.xcdatamodeld in Sources */,
+				4276FE0B2B1C00EB00832A0F /* PokedexViewController.swift in Sources */,
 				4276FDE92B1BE64600832A0F /* AppDelegate.swift in Sources */,
+				4276FE142B1C038C00832A0F /* Funciones.swift in Sources */,
 				4276FDEB2B1BE64600832A0F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
